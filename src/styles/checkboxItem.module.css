@@ -1,0 +1,29 @@
+.checkbox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 28px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #b1b1b1;
+    cursor:pointer;
+    transition: opacity .2s ease-out;
+}
+
+.checkbox:hover{
+    opacity: .7;
+    border: 1px #b1b1b1 solid;
+    border-radius: 4px;
+}
+
+.svg {
+    fill: #b1b1b1;
+    cursor:pointer;
+}
+
+input {
+    width: 0;
+    height:0;
+}

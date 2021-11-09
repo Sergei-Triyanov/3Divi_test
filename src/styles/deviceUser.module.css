@@ -1,0 +1,11 @@
+.deviceUser {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 520px;
+    overflow: auto;
+}
+
+.deviceUser::-webkit-scrollbar {
+    width: 0;
+}
